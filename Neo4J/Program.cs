@@ -15,6 +15,7 @@ namespace Neo4J
                 //greeter.PrintGreeting("hello, world");
                 greeter.QueryGreeting();
             }
+            Console.ReadLine();
         }
 
         public class DriverLifecycleExample : IDisposable
